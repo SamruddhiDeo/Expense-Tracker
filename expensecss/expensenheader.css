@@ -1,0 +1,19 @@
+.navbar{
+    /* background-color: #6c757d !important; */
+    width: 100%;
+}
+
+/* button{
+    background-color: rgb(255, 211, 164);
+    border: none;
+    border-radius: 6px;
+} */
+
+.logout{
+    color: white;
+}
+
+.navbar button{
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}

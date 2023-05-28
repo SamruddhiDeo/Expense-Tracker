@@ -1,0 +1,184 @@
+
+
+.logout{
+    position: relative !important;
+    left: 1422% !important;
+    color: white !important;
+}
+
+.addbox{
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65% !important;
+    margin: 2% auto;
+/* padding: 1% 0%; */
+}
+
+form{
+    width: 70%;
+    margin: 2% 0%;
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1{
+    margin-top: 1%;
+}
+
+#date{
+    width: 68%;
+}
+
+.incomecategorybox{
+    width: 100%;
+    position: relative;
+    right: 316%;
+}
+
+.expensecategorybox{
+    width: 100%;
+    position: relative;
+    right: 235%;
+}
+
+@media only screen and (max-width: 1100px) {
+    .form-group input{
+        padding: 0px !important;
+        /* margin: 0px auto !important; */
+        width: 60%;
+        font-size: 83%;
+    }
+    .addbox{
+        /* height: 81vh; */
+        margin: 5% auto !important;
+        padding: 3% 0% !important;
+        width: 750vw !important;
+       
+    font-size: 98%;
+
+        border: 1px solid black;
+
+    }
+    .categorybox{
+        width: 20%;
+    }
+ #title,#amount,#date{
+    height: 1%;
+ }
+ #date{
+      width: 60%;
+}
+button[type='submit']{
+    font-size: 73%;
+    padding: 1%;
+  }
+  form{
+    width: 86%;
+    margin-top: 0% !important;
+  }
+  
+  .form-group{
+    margin-bottom: 2% !important;
+  }
+  .logout{
+    position: relative;
+    left: 0px;
+    color: white !important;
+}
+  }
+  
+@media only screen and (max-width: 650px) {
+    .form-group input{
+        padding: 0px !important;
+        /* margin: 0px auto !important; */
+        width: 39%;
+        font-size: 83%;
+    }
+    .addbox{
+        /* height: 81vh; */
+        margin: 5% auto !important;
+        padding: 3% 0% !important;
+        width: 90vw !important;
+        font-size: 77%;
+        border: 1px solid black;
+
+    }
+    .categorybox{
+        right: 90%;
+    }
+ #title,#amount,#date{
+    height: 1%;
+ }
+ #date{
+    width: 39%;
+}
+button[type='submit']{
+    font-size: 73%;
+    padding: 2%;
+  }
+  form{
+    width: 86%;
+    margin-top: 0% !important;
+  }
+  
+  .form-group{
+    margin-bottom: 2% !important;
+  }
+  .logout{
+    position: relative;
+    left: 0px;
+    color: white !important;
+}
+  }
+@media only screen and (max-width: 450px) {
+    .form-group input{
+        padding: 0px !important;
+        /* margin: 0px auto !important; */
+        width: 39%;
+        font-size: 83%;
+    }
+    .addbox{
+        /* height: 81vh; */
+        margin: 5% auto !important;
+        padding: 3% 0% !important;
+        width: 90vw !important;
+        font-size: 77%;
+        border: 1px solid black;
+
+    }
+    .categorybox{
+        width: 20%;
+        right: 23%;
+    }
+ #title,#amount,#date{
+    height: 1%;
+ }
+ #date{
+    width: 39%;
+}
+button[type='submit']{
+    font-size: 73%;
+    padding: 2%;
+  }
+  form{
+    width: 86%;
+    margin-top: 0% !important;
+  }
+  
+  .form-group{
+    margin-bottom: 2% !important;
+  }
+  .logout{
+    position: relative;
+    left: 0px;
+    color: white !important;
+}
+  }

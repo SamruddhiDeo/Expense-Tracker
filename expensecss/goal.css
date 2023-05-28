@@ -1,0 +1,152 @@
+
+.navbar button{
+    position: relative !important;
+    left: 89% !important;
+    color: white !important;
+}
+
+
+.goalbox{
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65% !important;
+}
+
+table th,tr{
+    width: calc(100%/7);
+    text-align: center;
+}
+
+input[name='savedamount']{
+    width: 50%;
+  
+}
+
+td form{
+    margin: auto;
+}
+
+form{
+  width: 80%;
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#date{
+    width: 60%;
+}
+
+#amount{
+    width: 60%;
+}
+
+.maingoalprogress{
+    text-align: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1196px) {
+    body {
+      background-color: lightblue;
+    }
+    .form-group input{
+        width: 60%;
+    }
+    input[name='savedamount']{
+        width: 60%;
+    }
+    .navbar button {
+        position: relative;
+        right: 0%;
+        left: 0% !important;
+        color: white !important;
+    }
+  }
+
+@media only screen and (max-width: 782px) {
+    body {
+      background-color: lightblue;
+    }
+    .form-group input{
+        width: 50%;
+        height: 1%;
+    }
+    input[name='savedamount']{
+        width: 60%;
+        height: 1%;
+    }
+    .goalbox{
+        width: 89% !important;
+    }
+  .maingoalprogress{
+    font-size: 66%;
+  }
+  .navbar button {
+    position: relative;
+    right: 0%;
+    left: 0% !important;
+    color: white !important;
+}
+#amount{
+    width: 50%;
+}
+#date{
+    width: 50%;
+}
+
+
+  }
+@media only screen and (max-width: 450px) {
+    body {
+      background-color: lightblue;
+    }
+    .form-group input{
+        width: 39%;
+        height: 1%;
+    }
+    input[name='savedamount']{
+        width: 107%;
+        height: 0.5%;
+    }
+  .maingoalprogress{
+    font-size: 48%;
+    padding: 0px !important;
+    width: 100vw !important;
+    margin-left: 0% !important;
+    margin-top: 3% !important;
+    margin-top: 12% !important;
+  }
+  .goalbox{
+    padding: 0px !important;
+    margin: 0px auto !important;
+    width: 90vw !important;
+    font-size: 83%;
+    border: 1px solid black;
+  }
+  button[type='submit']{
+    font-size: 73%;
+    padding: 2%;
+  }
+  #amount {
+    width: 39%;
+}
+#date{
+    width: 39%;
+}
+.navbar button {
+    position: relative;
+    right: 0%;
+    left: 0% !important;
+    color: white !important;
+}
+
+
+  }
